@@ -85,3 +85,49 @@
     max-width: 100%;
     height: auto;
 }
+
+/* Pillars of "Bangladesh 2.0" */
+.h-title{
+    margin-top: 80px;
+    margin-bottom: 32px;
+    margin-left: 150px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+}
+.box-container{
+    display: flex;
+    justify-content: center;
+    gap: 6%;
+    margin: 24px 8px;
+    flex-direction: row;
+}
+.pillar-box{
+    align-items: flex-start;
+    text-align: left;
+    width: 312px;
+    height: 250px;
+    padding: 25px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.pillar-box img{
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.pillar-box h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.pillar-box p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 18px;
+    color: rgba(14, 14, 14, 0.7);
+}
