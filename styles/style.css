@@ -1,5 +1,4 @@
 /* Font Styles */
-
 .fira-sans-regular {
     font-family: "Fira Sans", serif;
     font-weight: 400;
@@ -47,20 +46,17 @@
     align-items: center;
     border-radius: 24px;
 }
-
 .banner-subtitle {
     font-size: 24px;
     color: rgba(14, 14, 14, 0.5);
     font-weight: 500;
 }
-
 .banner-title {
     font-size: 56px;
     font-weight: 700;
     color: rgb(14, 14, 14);
     margin: 16px 0;
 }
-
 .explore-btn {
     font-size: 18px;
     font-weight: 600;
@@ -72,23 +68,21 @@
     border-radius: 8px;
     margin-top: 24px;
 }
-
 .banner-container a {
     text-decoration: none;
 }
-
 .banner-image-wrapper {
     text-align: right;
 }
-
 .banner-img {
     width: 85%;
     height: auto;
 }
 
+/* Main Section*/
 main {
     width: 85%;
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(226, 212, 174);
     margin: 0 auto;
     text-align: center;
 }
@@ -191,14 +185,12 @@ main {
     border: none;
     color: rgb(255, 255, 255);
 }
-
 .btn1 {
     background-color: rgb(84, 144, 245);
 }
 .btn2{
     background-color: rgb(9, 161, 92);
 }
-
 .btn3{
     background-color: rgb(255, 194, 57);
 }
@@ -238,7 +230,6 @@ main {
     text-align: left;
 }
 
-
 /* Your Opinion Matters */
 .table-container {
     width: auto;
@@ -247,14 +238,13 @@ main {
     padding: 32px;
     border-radius: 16px;
     background: rgb(255, 255, 255);
-  }
+}
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
     padding: 24px;
 }
-
 th {
     background-color: rgb(198, 228, 214);
     padding: 10px;
@@ -265,7 +255,6 @@ th {
     font-weight: 600;
     padding: 24px;
 }
-
 td{
     padding: 24px;
     border: 1px solid rgba(14, 14, 14, 0.15);;
@@ -275,7 +264,6 @@ td{
     padding: 24px;
     line-height: 19px;
 }
-
 select {
     padding: 24px;
     border: 1px solid #ccc;
@@ -288,3 +276,193 @@ select {
     border-radius: 4px;
     background: rgba(9, 161, 92, 0.15);
 } 
+
+/* Recent News */
+.news-subtitle{
+    margin: 12px 0px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+.news-container{
+    display: flex;
+    justify-content: left;
+    margin: 0 auto;
+    text-align: left;
+    width: 100%;
+    padding: 48px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 24px;
+}
+.satelite{
+    height: 265px;
+    border-radius: 24px;
+}
+.news-content{
+    margin-left: 24px;
+}
+.news-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+}
+.al-jazeera{
+    margin-top: 15px;
+    width: 134px;
+    height: 40px;
+}
+.news-paragraph{
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    text-align: left;
+}
+.btn4 {
+    background-color: rgb(0, 106, 80);
+}
+.news-container-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    width: 100%;
+    padding: 48px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 24px;
+}
+.satelite-one {
+    align-items: flex-start;
+    height: 265px;
+    border-radius: 24px;
+    margin-right: 40px;
+}
+
+/* Donate Today */
+.donate-title{
+    margin-top: 80px;
+    margin-bottom: 24px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.donate-subtitle{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+.donate-container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-direction: row;
+    margin-top: 48px;
+}
+.d-box{
+    width: 264px;
+    height: 128px;
+    align-items: flex-start;
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.d-box-two{
+    background: rgb(198, 228, 214);
+}
+.d-box p{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: rgba(14, 14, 14, 0.8);
+}
+.custom-amount {
+    margin-top: 20px;
+}
+.custom-amount input {
+    width: 1032px;
+    height: 64px;
+    padding: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.3);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+.butttone{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin: 24px 0px;
+    padding: 20px 34px 20px 34px;   
+    border-radius: 8px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 106, 80);
+}
+
+/* Subscribe Newsletter */
+.newsletter-container {
+    justify-content: center;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    padding: 80px 100px;
+    margin-top: 80px;
+  }
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(14, 14, 14);
+    margin-bottom: 20px;
+  } 
+p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+    margin-bottom: 10px;
+}
+.subscribe-form input[type="email"] {
+    width: 40%;
+    height: 55px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.subscribe-form button {
+    background-color: #1a8e5f;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    font-size: 18px;
+    font-weight: 600;
+    height: 55px;
+}
+  .disclaimer {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    margin-top: 25px;
+}
