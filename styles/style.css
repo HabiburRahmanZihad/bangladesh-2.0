@@ -82,7 +82,6 @@
 /* Main Section*/
 main {
     width: 85%;
-    /* background-color: rgb(226, 212, 174); */
     margin: 0 auto;
     text-align: center;
 }
@@ -493,8 +492,6 @@ p {
     height: auto;
 }
 hr {
-
-    /* align-self: middle; */
     width: 1122px;
     margin-bottom: 20px;
     margin-inline: auto;
