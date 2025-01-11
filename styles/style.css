@@ -241,30 +241,50 @@ main {
 
 /* Your Opinion Matters */
 .table-container {
-    max-width: 600px;
-    overflow-x: auto; /* Horizontal scrolling for wide tables */
-    border: 1px solid #ccc;
-    padding: 10px;
+    width: auto;
+    height: fit-content;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 32px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
   }
-  .spane {
-    text-align: right;
-  }
-  table {
+table {
     width: 100%;
     border-collapse: collapse;
-  }
-  
-  th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
+    margin-top: 20px;
+    padding: 24px;
+}
+
+th {
+    background-color: rgb(198, 228, 214);
+    padding: 10px;
+    border: none;
+    /* text-align: start; */
     text-align: left;
-  }
-  
-  th {
-    background-color: #f2f2f2;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #f9f9f9;
-  }
-  
+    font-size: 20px;
+    font-weight: 600;
+    padding: 24px;
+}
+
+td{
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 24px;
+    line-height: 19px;
+}
+
+select {
+    padding: 24px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    box-sizing: border-box;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgba(9, 161, 92, 0.15);
+} 
