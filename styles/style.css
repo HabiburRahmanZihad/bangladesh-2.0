@@ -190,8 +190,19 @@ main {
     border-radius: 8px;
     border: none;
     color: rgb(255, 255, 255);
-    background: rgb(84, 144, 245);
 }
+
+.btn1 {
+    background-color: rgb(84, 144, 245);
+}
+.btn2{
+    background-color: rgb(9, 161, 92);
+}
+
+.btn3{
+    background-color: rgb(255, 194, 57);
+}
+
 
 /* The Yousuf Sorkar */
 .quote{
@@ -226,3 +237,34 @@ main {
     font-weight: 400;
     text-align: left;
 }
+
+
+/* Your Opinion Matters */
+.table-container {
+    max-width: 600px;
+    overflow-x: auto; /* Horizontal scrolling for wide tables */
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  .spane {
+    text-align: right;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
